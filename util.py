@@ -3,6 +3,7 @@ import csv
 
 
 def file_reader(split_ratio=0.75):
+    """Read all the files in the given folder and load data with 2 data sets as training data and testing data"""
     root_path = 'data/'
     # top_view file_names
     file_names = [file_name for file_name in os.listdir(root_path)]
